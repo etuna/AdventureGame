@@ -1,0 +1,5 @@
+(apply + '(1 2 3 4))
+(define (square x) (* x x))
+
+(define ( sum x y) (+ x y))
+(apply sum '(3 5))
